@@ -17,6 +17,7 @@ background-repeat: no-repeat; /*  repete a imagem apenas no sentido vertical; no
 background-size: contain;  /* especifica o tamanho das imagens de fundo. O tamanho da imagem pode ser totalmente ou apenas parcialmente comprimido*/
 background-color: hsl(225, 80%, 94%); /* cor de fundo do body juntamene com a imagem do backgroud*/
 position: relative; /* posição de elemento dentro do fluxo normal do documento*/
+font-size: 16px;
 }
 
 /* começando a configurar o container */
@@ -44,5 +45,20 @@ position: relative; /* posição de elemento dentro do fluxo normal do documento
 
 }
 .text-content p.subtitle {
-    color: ;
+    color: #8a8a8a;  /* cor do texto da tag <p> do subtitulo*/
+    margin-bottom: 25px;
 }
+
+.plan-box {
+    background-color: hsl(225, 100%, 88%); /*cor do box*/
+    border-radius: 16px; /* borda do box*/
+    display: flex; /* Torna o elemento um flex container automaticamente transformando todos os seus filhos diretos em flex itens*/
+    padding: 25px; /*  são usadas para gerar espaço ao redor do conteúdo de um elemento, dentro de quaisquer bordas definidas*/
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+
+ 
