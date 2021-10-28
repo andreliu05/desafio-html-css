@@ -33,4 +33,16 @@ position: relative; /* posição de elemento dentro do fluxo normal do documento
 
 .text-content {
     padding: 7%; /* define uma a distância entre o conteúdo de um elemento e suas bordas*/
+    text-align: center; /* centralizando texto */
+}
+
+.title {
+    color: hsl(223, 47%, 23%); /* cor do titulo */
+    font-weight: 900; /* estabelece o tamanho da fonte */
+    font-size: 32px; /* tamanho da font */
+    margin-bottom: 20px; /* define a margin area na parte inferior de um elemento */
+
+}
+.text-content p.subtitle {
+    color: ;
 }
